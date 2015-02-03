@@ -45,7 +45,7 @@ function url($file) {
 						<li><a href="<?= url('charities.php'); ?>">Charities</a></li>
 						<li><a href="<?= url('donate.php'); ?>">Donate Now</a></li>
 						<li><a href="<?= url('info.php'); ?>">Live Tracker</a></li>
-						<li><a href="<?= url('info.php'); ?>">Contact</a></li>
+						<li><a href="<?= url('contact.php'); ?>">Contact</a></li>
 					</ul>
 				</div>
 			</div>
