@@ -21,9 +21,7 @@
 					</li>
 				</ul>
 				<p class="copyright text-muted">
-					Design ported to AnchorCMS by
-					<a href="https://thiefas.de">ThiefasDE</a> - Original Design by
-					<a href="http://startbootstrap.com" target="_blank">StartBootstrap</a>
+					Design by <a href="http://startbootstrap.com" target="_blank">StartBootstrap</a>
 				</p>
 			</div>
 		</div>
