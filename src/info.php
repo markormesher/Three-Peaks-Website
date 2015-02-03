@@ -13,7 +13,7 @@
 				<hr/>
 
 				<h2>Why?</h2>
-				<p><strong>To raise money for charity!</strong> We're supporting three charities, and we're hoping to raise at least &pound;1,000 for each of them. Check out more information on our <a href="<?=url('donate.php');?>">fundraising page</a>.</p>
+				<p><strong>To raise money for charity!</strong> We're supporting three charities, and we're hoping to raise at least &pound;1,000 for each of them. Check out more information on our <a href="<?=url('charities.php');?>">fundraising page</a>.</p>
 
 				<hr/>
 
