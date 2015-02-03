@@ -40,10 +40,10 @@ function url($file) {
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="<?= url('page.php'); ?>" title="">Link</a></li>
-						<li><a href="<?= url('page.php'); ?>" title="">Link</a></li>
-						<li><a href="<?= url('page.php'); ?>" title="">Link</a></li>
-						<li><a href="<?= url('page.php'); ?>" title="">Link</a></li>
+						<li><a href="<?= url('page.php'); ?>">What's All This?</a></li>
+						<li><a href="<?= url('page.php'); ?>">Donate</a></li>
+						<li><a href="<?= url('page.php'); ?>">Live Tracker</a></li>
+						<li><a href="<?= url('page.php'); ?>">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -54,7 +54,7 @@ function url($file) {
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 						<div class="site-heading">
-							<h1>Three Peaks Challenge 2016</h1>
+							<h1>Three Peaks Challenge 2015</h1>
 							<hr class="small">
 							<span class="subheading">3 mountains in 3 countries.<br/>3km ascent &amp; 25mi walking.<br/>24 hours.</span>
 						</div>
