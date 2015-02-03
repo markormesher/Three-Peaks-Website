@@ -58,7 +58,7 @@ function url($file) {
 						<div class="site-heading">
 							<h1>Three Peaks Challenge 2015</h1>
 							<hr class="small">
-							<span class="subheading">3 mountains in 3 countries.<br/>3km ascent &amp; 25mi walking.<br/>24 hours.</span>
+							<span class="subheading">3 mountains, 3 countries &amp; 3 charities.<br/>3km ascent &amp; 25mi walking.<br/>24 hours.</span>
 						</div>
 					</div>
 				</div>
