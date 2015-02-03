@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('_header.php'); ?>
 
 	<div class="container">
 		<div class="row">
@@ -16,4 +16,4 @@
 	</div>
 	<hr>
 
-<?php include('footer.php'); ?>
+<?php include('_footer.php'); ?>

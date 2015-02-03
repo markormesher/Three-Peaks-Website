@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('_header.php'); ?>
 
 	<section class="content wrap">
 		<article>
@@ -16,4 +16,4 @@
 		<hr/>
 	</section>
 
-<?php include('footer.php'); ?>
+<?php include('_footer.php'); ?>

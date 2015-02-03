@@ -40,10 +40,10 @@ function url($file) {
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="<?= url('page.php'); ?>">What's All This?</a></li>
-						<li><a href="<?= url('page.php'); ?>">Donate</a></li>
-						<li><a href="<?= url('page.php'); ?>">Live Tracker</a></li>
-						<li><a href="<?= url('page.php'); ?>">Contact</a></li>
+						<li><a href="<?= url('info.php'); ?>">What's All This?</a></li>
+						<li><a href="<?= url('info.php'); ?>">Donate</a></li>
+						<li><a href="<?= url('info.php'); ?>">Live Tracker</a></li>
+						<li><a href="<?= url('info.php'); ?>">Contact</a></li>
 					</ul>
 				</div>
 			</div>
