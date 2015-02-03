@@ -14,6 +14,7 @@ function url($file) {
 		<meta name="author" content="">
 		<title>Three Peaks Challenge 2015</title>
 		<link href="<?= url('css/bootstrap.min.css'); ?>" rel="stylesheet">
+		<link href="<?= url('css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
 		<link href="<?= url('css/basic.css'); ?>" rel="stylesheet">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
