@@ -19,6 +19,7 @@
 
 				<h2>When?</h2>
 				<p>We will start climbing on Saturday evening, <strong>May 30th 2015</strong>.</p>
+				<p class="small">(Probably. The date isn't 100% confirmed yet.)</p>
 
 				<hr/>
 
