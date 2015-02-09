@@ -13,7 +13,7 @@
 				<hr/>
 
 				<h2>Why?</h2>
-				<p><strong>To raise money for charity!</strong> We're supporting three charities, and we're hoping to raise at least &pound;1,000 for each of them. Check out more information on our <a href="<?=url('charities.php');?>">fundraising page</a>.</p>
+				<p><strong>To raise money for charity!</strong> We're supporting three charities, and we're hoping to raise at least &pound;1,000 for each of them. Check out more information on our <a href="<?=url('charities');?>">fundraising page</a>.</p>
 
 				<hr/>
 
@@ -25,9 +25,9 @@
 
 				<h2>Who?</h2>
 				<ul>
-					<li>Mark Ormesher <a href="https://www.markormesher.co.uk/"><i class="text-muted small fa fa-external-link"></i></a></li>
 					<li>Andy West</li>
 					<li>Iggy Willats</li>
+					<li>Mark Ormesher</li>
 				</ul>
 			</div>
 		</div>

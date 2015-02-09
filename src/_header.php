@@ -41,11 +41,11 @@ function url($file) {
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="<?= url('info.php'); ?>">What's All This?</a></li>
-						<li><a href="<?= url('charities.php'); ?>">Charities</a></li>
-						<li><a href="<?= url('donate.php'); ?>">Donate Now</a></li>
-						<li><a href="<?= url('tracker.php'); ?>">Live Tracker</a></li>
-						<li><a href="<?= url('contact.php'); ?>">Contact</a></li>
+						<li><a href="<?= url('info'); ?>">What's All This?</a></li>
+						<li><a href="<?= url('charities'); ?>">Charities</a></li>
+						<li><a href="<?= url('donate'); ?>">Donate Now</a></li>
+						<li><a href="<?= url('tracker'); ?>">Live Tracker</a></li>
+						<li><a href="<?= url('contact'); ?>">Contact</a></li>
 					</ul>
 				</div>
 			</div>

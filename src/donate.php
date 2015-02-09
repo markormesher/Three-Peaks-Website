@@ -5,12 +5,12 @@
 				<h1>Donate Now</h1>
 
 				<p>First of all, <strong><em>thank you</em></strong>. If you're on this page then you're at least thinking about donating, so thank you for that.</p>
-				<p>Donating to our <a href="<?=url('charities.php');?>">chosen charities</a> is really easy: you can donate online, text your donation, or donate with a cheque or cash.</p>
+				<p>Donating to our <a href="<?=url('charities');?>">chosen charities</a> is really easy: you can donate online, text your donation, or donate with a cheque or cash.</p>
 
 				<hr/>
 
 				<h2>Donate Online</h2>
-				<p>We have set up a team page with Just Giving where you can donate to any one of <a href="<?=url('charities.php');?>">our charities</a> quickly, easily and very safely.</p>
+				<p>We have set up a team page with Just Giving where you can donate to any one of <a href="<?=url('charities');?>">our charities</a> quickly, easily and very safely.</p>
 				<p><a href="https://www.justgiving.com/teams/threepeaks2015" rel="external">&raquo; Go to the Team Page</a></p>
 
 				<hr/>
