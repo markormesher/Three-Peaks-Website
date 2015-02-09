@@ -11,7 +11,7 @@
 
 				<h2>Donate Online</h2>
 				<p>We have set up a team page with Just Giving where you can donate to any one of <a href="<?=url('charities');?>">our charities</a> quickly, easily and very safely.</p>
-				<p><a href="https://www.justgiving.com/teams/threepeaks2015" rel="external">&raquo; Go to the Team Page</a></p>
+				<p><i class="fa fa-arrow-right"></i> <a href="https://www.justgiving.com/teams/threepeaks2015" rel="external">Go to the Team Page</a></p>
 
 				<hr/>
 
@@ -21,19 +21,21 @@
 					<tr>
 						<td>To donate to <em>BHF</em>...</td>
 						<td style="width: 40px;">&nbsp;</td>
-						<td>Text <strong>TPKS<span style="text-decoration: underline">55</span> &pound;3</strong> to 70070</td>
+						<td>Text '<strong>TPKS<span style="text-decoration: underline">55</span> &pound;3</strong>' to 70070</td>
 					</tr>
 					<tr>
 						<td>To donate to <em>JDRF</em>...</td>
 						<td style="width: 40px;">&nbsp;</td>
-						<td>Text <strong>TPKS<span style="text-decoration: underline">56</span> &pound;3</strong> to 70070</td>
+						<td>Text '<strong>TPKS<span style="text-decoration: underline">56</span> &pound;3</strong>' to 70070</td>
 					</tr>
 					<tr>
 						<td>To donate to <em>RTR</em>...</td>
 						<td style="width: 40px;">&nbsp;</td>
-						<td>Text <strong>TPKS<span style="text-decoration: underline">57</span> &pound;3</strong> to 70070</td>
+						<td>Text '<strong>TPKS<span style="text-decoration: underline">57</span> &pound;3</strong>' to 70070</td>
 					</tr>
 				</table>
+
+				<p><em>Psst!</em> You can change &pound;3 to &pound;1, &pound;2, &pound;4, &pound;5 or &pound;10, if you want.</p>
 
 				<hr/>
 

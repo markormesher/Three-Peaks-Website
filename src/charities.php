@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 				<h1>Our Charities</h1>
-				<p>We are supporting three charities:</p>
+				<p>We are supporting three charities, detailed below. Donating to any of them is <a href="https://www.justgiving.com/teams/threepeaks2015" rel="external">super-duper easy with JustGiving</a>.</p>
 			</div>
 		</div>
 		<div class="row">
