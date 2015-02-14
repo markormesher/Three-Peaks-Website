@@ -1,4 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^([a-zA-Z0-9\-/]*)$ $1.php
+RewriteBase /projects/three-peaks/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /projects/three-peaks/index.php [L]
 </IfModule>
+

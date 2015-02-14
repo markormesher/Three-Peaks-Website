@@ -5,14 +5,36 @@ function url($file) {
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<title>Three Peaks Challenge 2015</title>
+		<meta charset="<?php bloginfo('charset'); ?>"/>
+		<meta name="viewport" content="width=device-width"/>
+		<title><?php
+			if (is_tag()) {
+				single_tag_title('Tagged: #');
+			} elseif (is_404()) {
+				echo('404: Nothing Found');
+			} else {
+				wp_title('');
+			}
+			?></title>
+
+		<!-- ANTI CLICKJACK -->
+		<style id="antiClickjack" type="text/css">
+			body {
+				display: none !important;
+			}
+		</style>
+		<script type="text/javascript">
+			if (self === top) {
+				var antiClickjack = document.getElementById("antiClickjack");
+				antiClickjack.parentNode.removeChild(antiClickjack);
+			} else {
+				top.location = self.location;
+			}
+		</script>
+		<!-- END ANTI CLICKJACK -->
+
 		<link href="<?= url('css/bootstrap.min.css'); ?>" rel="stylesheet">
 		<link href="<?= url('css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
 		<link href="<?= url('css/basic.css'); ?>" rel="stylesheet">
@@ -25,7 +47,7 @@ function url($file) {
 		<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 
 		<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
 			<div class="container-fluid">
@@ -64,3 +86,6 @@ function url($file) {
 				</div>
 			</div>
 		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

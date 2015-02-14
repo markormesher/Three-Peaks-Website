@@ -1,3 +1,7 @@
+<hr/>
+</div>
+</div>
+</div>
 <footer>
 	<div class="container">
 		<div class="row">
@@ -37,5 +41,6 @@
 </footer>
 <script src="<?= url('js/jquery.min.js'); ?>"></script>
 <script src="<?= url('js/bootstrap.min.js'); ?>"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
