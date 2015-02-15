@@ -1,0 +1,36 @@
+body, html, #tracker {
+	width:100% !important;
+	height: 100% !important;
+	padding: 0;
+	margin: 0;
+}
+
+#back {
+	position: absolute;
+	left: 85px;
+	top: 27px;
+}
+
+#back p {
+	padding: 0;
+	margin: 0;
+}
+
+#back p a {
+	font-size: 0.9em;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#info {
+	position: absolute;
+	right: 85px;
+	top: 50px;
+}
+
+#info p {
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}

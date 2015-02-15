@@ -1,3 +1,7 @@
+<?php
+global $tracker;
+if (!$tracker) {
+?>
 <hr/>
 </div>
 </div>
@@ -42,5 +46,6 @@
 <script src="<?= url('js/jquery.min.js'); ?>"></script>
 <script src="<?= url('js/bootstrap.min.js'); ?>"></script>
 <?php wp_footer(); ?>
+<?php } ?>
 </body>
 </html>

@@ -3,6 +3,8 @@ function url($file) {
 	return '/projects/three-peaks/' . $file;
 }
 
+global $tracker;
+
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -39,6 +41,7 @@ function url($file) {
 		<link href="<?= url('css/bootstrap-theme.min.css'); ?>" rel="stylesheet">
 		<link href="<?= url('css/basic.css'); ?>" rel="stylesheet">
 		<link href="<?= url('css/extra.css'); ?>" rel="stylesheet">
+		<?php if ($tracker): ?><link href="<?= url('css/tracker.css'); ?>" rel="stylesheet"><?php endif; ?>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -47,6 +50,9 @@ function url($file) {
 		<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
+	<?php if ($tracker) {
+		echo('<body>');
+	} else { ?>
 	<body <?php body_class(); ?>>
 
 		<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -89,3 +95,4 @@ function url($file) {
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<?php } ?>
